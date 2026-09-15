@@ -1,0 +1,45 @@
+version: 1
+contract: financial_statement
+primary_key:
+  - symbol
+  - fiscal_year
+  - fiscal_quarter
+  - metric
+
+required_fields:
+  symbol: string
+  fiscal_year: integer
+  fiscal_quarter: integer
+  statement_type: string
+  metric: string
+  value: decimal
+  unit: string
+  currency: string
+  source: string
+  source_url: string
+  ingested_at: timestamp
+
+constraints:
+  fiscal_quarter: [1, 2, 3, 4]
+  currency: [VND]
+
+phase_1_metrics:
+  income_statement:
+    - revenue
+    - gross_profit
+    - operating_profit
+    - net_profit
+  balance_sheet:
+    - total_assets
+    - total_liabilities
+    - equity
+    - cash
+  cash_flow:
+    - operating_cash_flow
+    - investing_cash_flow
+    - financing_cash_flow
+
+notes:
+  - Missing values must remain null/missing; never replace them with zero.
+  - Provider-specific metric names must be mapped to these canonical names.
+  - Raw source payloads must be retained separately for replay and audit.
