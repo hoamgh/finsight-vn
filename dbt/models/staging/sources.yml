@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: finsight
+    schema: public
+    tables:
+      - name: fct_financial_statement
+        description: Long canonical quarterly financial facts with source provenance.
+        columns:
+          - name: symbol
+            tests: [not_null]
+          - name: fiscal_year
+            tests: [not_null]
+          - name: fiscal_quarter
+            tests:
+              - not_null
+              - accepted_values:
+                  arguments:
+                    values: [1, 2, 3, 4]
+                    quote: false
+          - name: metric
+            tests: [not_null]
+          - name: value
+            tests: [not_null]
+          - name: source
+            tests: [not_null]
+          - name: source_reference
+            tests: [not_null]

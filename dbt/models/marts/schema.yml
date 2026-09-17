@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: mart_regular_company_quarterly
+    description: Wide quarterly mart for regular-company analytics and the SQL Agent.
+    columns:
+      - name: symbol
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['FPT', 'HPG', 'MWG', 'VNM']
+      - name: period
+        tests: [not_null]
+      - name: fiscal_year
+        tests: [not_null]
+      - name: fiscal_quarter
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [1, 2, 3, 4]
+                quote: false
+      - name: revenue
+        tests: [not_null]
+      - name: net_profit
+        tests: [not_null]

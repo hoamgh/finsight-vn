@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: stg_financial_statement
+    description: Validated regular-company quarterly facts in long form.

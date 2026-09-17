@@ -1,0 +1,10 @@
+companies:
+  - FPT
+  - MWG
+  - VNM
+  - HPG
+  - VCB
+
+annual_history:
+  start_year: 2016
+  end_year: 2025

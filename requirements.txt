@@ -1,0 +1,7 @@
+docling>=2,<3
+dbt-postgres>=1.9,<2
+pandas>=2,<3
+pytest>=8,<9
+requests>=2,<3
+psycopg[binary]>=3,<4
+vnstock>=4.0.6,<5

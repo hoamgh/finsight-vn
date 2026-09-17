@@ -2,5 +2,16 @@
 __pycache__/
 *.pyc
 .env
+.env.postgres
 data/
 .ipynb_checkpoints/
+target/
+logs/
+dbt_packages/
+.user.yml
+.cache/
+tmp/
+.test-tmp/
+.pytest_cache/
+.runtime-test/
+AGENTS.md
