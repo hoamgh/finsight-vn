@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Các khoản vay ngắn hạn của FPT được thực hiện theo hình thức nào?",
+    "answerable": true,
+    "expected_terms": ["tin chp", "tin dng thu"]
+  },
+  {
+    "question": "Các khoản tương đương tiền của FPT có kỳ hạn bao lâu?",
+    "answerable": true,
+    "expected_terms": ["không quá 3 tháng"]
+  },
+  {
+    "question": "Các bên liên quan của FPT bao gồm những ai?",
+    "answerable": true,
+    "expected_terms": ["cong ty lien kt", "qun ly ch cht"]
+  },
+  {
+    "question": "Doanh thu theo bộ phận phần mềm xuất khẩu, giải pháp phần mềm và viễn thông là bao nhiêu?",
+    "answerable": true,
+    "expected_terms": ["phn mm xut khu", "vin thong"]
+  },
+  {
+    "question": "FPT giải thích nguyên nhân tăng trưởng quý 2 năm 2024 như thế nào?",
+    "answerable": true,
+    "expected_terms": ["khi cong ngh", "nht bn"]
+  },
+  {
+    "question": "Chính sách đối với các khoản đầu tư nắm giữ đến ngày đáo hạn là gì?",
+    "answerable": true,
+    "expected_terms": ["co k hn", "trai phiu"]
+  },
+  {
+    "question": "Doanh thu chưa thực hiện ngắn hạn của FPT gồm những khoản nào?",
+    "answerable": true,
+    "expected_terms": ["hc phi nhn truc", "dich v vin thong"]
+  },
+  {
+    "question": "FPT kiểm soát Công ty Cổ phần Viễn thông FPT như thế nào?",
+    "answerable": true,
+    "expected_terms": ["quyn kim soat", "45,66%"]
+  },
+  {
+    "question": "FPT có thảo luận rủi ro an ninh mạng không?",
+    "answerable": false,
+    "expected_terms": []
+  },
+  {
+    "question": "Báo cáo cho biết lượng phát thải carbon năm 2024 là bao nhiêu?",
+    "answerable": false,
+    "expected_terms": []
+  }
+]
