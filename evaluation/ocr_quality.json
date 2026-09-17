@@ -1,0 +1,86 @@
+[
+  {
+    "page": 10,
+    "region": "cash-flow heading",
+    "category": ["heading", "Vietnamese diacritics"],
+    "expected_text": "BÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT",
+    "important_numbers": [],
+    "table_shape": null,
+    "extractions": {
+      "rapidocr_baseline": {"text": "BÁO CÁO LUU CHUYN TIN TÊ HP NHÃT"},
+      "easyocr_full_page": {"text": "BÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT"},
+      "easyocr_layout_regions": {"text": "BÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT"},
+      "hybrid_candidate": {"text": "BÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT"}
+    }
+  },
+  {
+    "page": 10,
+    "region": "cash-flow table sample",
+    "category": ["financial table", "accounting terminology", "numbers"],
+    "expected_text": "Lợi nhuận trước thuế 5.197.878.460.527 4.338.776.280.445. Các khoản dự phòng 95.308.780.408 154.241.022.337. (Tăng)/giảm hàng tồn kho (295.910.884.913) (57.706.807.332). Thuế thu nhập doanh nghiệp đã nộp (867.101.644.086) (449.335.224.909).",
+    "important_numbers": ["5.197.878.460.527", "4.338.776.280.445", "95.308.780.408", "154.241.022.337", "(295.910.884.913)", "(57.706.807.332)", "(867.101.644.086)", "(449.335.224.909)"],
+    "table_shape": {"rows": 4, "columns": 3},
+    "extractions": {
+      "rapidocr_baseline": {"text": "Li nhun trưc thu 5.197.878.460.527 4.338.776.280.445. Các khon d phòng 95.308.780.408 154.241.022.337. (Tăng)/gim hàng tồn kho (295.910.884.913) (57.706.807.332). Thu thu nhp doanh nghip đã np (867.101.644.086) (449.335.224.909).", "rows": 4, "columns": 3},
+      "easyocr_full_page": {"text": "Lợi nhuận trước thuế 5.197.878.460.527 4.338.776.280.445. Các khoản dự phòng 95.308.780.408. (Tăng)/giảm hàng tồn kho (295.910.884,913) (57,706.807.332). Thuế thu nhập doanh nghiệp đã nộp (867.101.644.086) (449.335.224.909).", "rows": 4, "columns": 3},
+      "easyocr_layout_regions": {"text": "Lợi nhuận trước thuế 5.197.878.460.527 4.338.776.280.445. Các khoản dự phòng 95.308.780.408 154.241.022.337. (Tăng)/giảm hàng tồn kho (295.910.884.913) (57,706.807.332). Thuế thu nhập doanh nghíệp đã nộp (449.335.224.909).", "rows": 4, "columns": 3},
+      "hybrid_candidate": {"text": "Li nhun trưc thu 5.197.878.460.527 4.338.776.280.445. Các khon d phòng 95.308.780.408 154.241.022.337. (Tăng)/gim hàng tồn kho (295.910.884.913) (57.706.807.332). Thu thu nhp doanh nghip đã np (867.101.644.086) (449.335.224.909).", "rows": 4, "columns": 3}
+    }
+  },
+  {
+    "page": 31,
+    "region": "associates explanatory paragraph",
+    "category": ["normal paragraph", "accounting terminology"],
+    "expected_text": "Thông tin chi tiết về các công ty liên kết sở hữu trực tiếp được kế toán theo phương pháp vốn chủ sở hữu trong báo cáo tài chính hợp nhất tại ngày 30 tháng 6 năm 2024 như sau:",
+    "important_numbers": ["30", "6", "2024"],
+    "table_shape": null,
+    "extractions": {
+      "rapidocr_baseline": {"text": "Thông tin chi tit vě các công ty liên kt s hu trc tip đưc k toán theo phương pháp vn ch s hu trong báo cáo tài chính hp nht ti ngày 30 tháng 6 năm 2024 như sau:"},
+      "easyocr_full_page": {"text": "Thông tin chi tiết về các công ty liên kết sở hữu trực tiếp được kế toán theo phương pháp vốn chủ sở hữu trong báo cáo tài chính hợp nhất tại ngày 30 tháng 6 năm 2024 như sau:"},
+      "easyocr_layout_regions": {"text": "Thông tin chi tiết về các công ty líên kết sở hữu trực tiếp được kế toán theo phương pháp vốn chủ sở hữu trong báo cáo tài chính hợp nhất tại ngày 30 tháng 6 năm 2024 như sau:"},
+      "hybrid_candidate": {"text": "Thông tin chi tiết về các công ty líên kết sở hữu trực tiếp được kế toán theo phương pháp vốn chủ sở hữu trong báo cáo tài chính hợp nhất tại ngày 30 tháng 6 năm 2024 như sau:"}
+    }
+  },
+  {
+    "page": 31,
+    "region": "associate company table",
+    "category": ["company names", "financial table", "percentages", "column order"],
+    "expected_text": "Công ty Cổ phần Bán lẻ Kỹ thuật số FPT; Số 261 - 263 Khánh Hội, phường 2, quận 4, thành phố Hồ Chí Minh; 46,54%; 46,54%; Bán lẻ máy vi tính, thiết bị ngoại vi, phần mềm và thiết bị viễn thông; đại lý dịch vụ viễn thông.",
+    "important_numbers": ["261", "263", "2", "4", "46,54%", "46,54%"],
+    "table_shape": {"rows": 1, "columns": 5},
+    "extractions": {
+      "rapidocr_baseline": {"text": "Công ty C phàn Bán l K thut s FPT; S 261 - 263 Khánh Hi, phưng 2, qun 4, thành phő H Chí Minh; 46,54%; 46,54%; Bán l máy vi tính, thit bi ngoi vi, phàn mm và thit bi vin thông; đi lý dich vų vin thông.", "rows": 1, "columns": 5},
+      "easyocr_full_page": {"text": "Công ty Cổ phần Bán lẻ Kỹ thuậtsố FPT; Số 261 263 Khánh Hội, phường 2, quận 4, thành Hồ Chí Minh phố; 46,54%; 46,54%; Bán lẻ máy vi tính, thiết bị ngoại vi, phần mềm và thiết bị viễn thông; đại lý dịch vụ viễn thông.", "rows": 1, "columns": 5},
+      "easyocr_layout_regions": {"text": "Công ty Cổ Bán lẻ Kỹ thuật số FPT phần; Số 261 263 Khánh Hội, phường 2, quận 4, thành phố Hồ Chí Minh; 46,54%; 46,54%; Bán lẻ máy vi tính, thiết bị ngoại vi, phần mềm và thiết bị viễn thông; đại lý dịch vụ viễn thông.", "rows": 1, "columns": 5},
+      "hybrid_candidate": {"text": "Công ty C phàn Bán l K thut s FPT; S 261 - 263 Khánh Hi, phưng 2, qun 4, thành phő H Chí Minh; 46,54%; 46,54%; Bán l máy vi tính, thit bi ngoi vi, phàn mm và thit bi vin thông; đi lý dich vų vin thông.", "rows": 1, "columns": 5}
+    }
+  },
+  {
+    "page": 35,
+    "region": "loan-note heading and sentence",
+    "category": ["heading", "accounting terminology", "Vietnamese diacritics"],
+    "expected_text": "23. VAY VÀ NỢ THUÊ TÀI CHÍNH (tiếp theo). Kỳ hạn của các khoản vay dài hạn như sau:",
+    "important_numbers": ["23"],
+    "table_shape": null,
+    "extractions": {
+      "rapidocr_baseline": {"text": "23. VAY VÀ N THUÊ TÀI CHÍNH (tip theo). K hn ca các khon vay dài hn như sau:"},
+      "easyocr_full_page": {"text": "23. VAY VÀ NỢTHUÊ TÀl CHÍNH (tiếp theo). Kỳ hạn của các khoản vay dàí hạn như sau:"},
+      "easyocr_layout_regions": {"text": "23. VAY VÀ NỢTHUÊ TÀl CHÍNH (tiếp theo). Kỳ hạn của các khoản vay dài hạn như sau:"},
+      "hybrid_candidate": {"text": "23. VAY VÀ NỢTHUÊ TÀl CHÍNH (tiếp theo). Kỳ hạn của các khoản vay dài hạn như sau:"}
+    }
+  },
+  {
+    "page": 35,
+    "region": "long-term loan maturity table",
+    "category": ["financial table", "numbers", "row labels"],
+    "expected_text": "Vay dài hạn 621.459.951.543 1.509.629.066.839. Kỳ hạn 5 năm 572.579.431.543 310.351.571.581. Nợ thuê tài chính dài hạn 3.812.059.641 4.855.170.199. Số phải trả sau 12 tháng 478.494.331.122 208.074.996.962.",
+    "important_numbers": ["621.459.951.543", "1.509.629.066.839", "572.579.431.543", "310.351.571.581", "3.812.059.641", "4.855.170.199", "478.494.331.122", "208.074.996.962"],
+    "table_shape": {"rows": 4, "columns": 3},
+    "extractions": {
+      "rapidocr_baseline": {"text": "Vay dài hn 621.459.951.543 1.509.629.066.839. K hn 5 năm 572.579.431.543 310.351.571.581. N thuê tài chính dài hąn 3.812.059.641 4.855.170.199. S phái trå sau 12 tháng 478.494.331.122 208.074.996.962.", "rows": 4, "columns": 3},
+      "easyocr_full_page": {"text": "Vay dài hạn 621.459.951,543 1.509.629.066.839. Kỳ hạn 5 năm 572.579.431.543. Nợ thuê tài chính dài hạn 3.812.059.641 4.855.170.199. Số phải trả sau 12 tháng 478.494.331.122 208.074,996.962.", "rows": 4, "columns": 3},
+      "easyocr_layout_regions": {"text": "Vay dài hạn 621.459.951.,543 1.509.629.066.839. Kỳ hạn 5 năm 572.579.431.543 310.351.571.581. Nợ thuê tài chính dài hạn 3.812.059.641 4.855.170.199. Số phải trả sau 12 tháng 478.494.331.122 208.074.996.962.", "rows": 4, "columns": 3},
+      "hybrid_candidate": {"text": "Vay dài hn 621.459.951.543 1.509.629.066.839. K hn 5 năm 572.579.431.543 310.351.571.581. N thuê tài chính dài hąn 3.812.059.641 4.855.170.199. S phái trå sau 12 tháng 478.494.331.122 208.074.996.962.", "rows": 4, "columns": 3}
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "question": "FPT giải thích nguyên nhân tăng trưởng quý 2 năm 2024 như thế nào?",
+    "answerable": true,
+    "expected_terms": ["khi cong ngh", "nht bn"]
+  },
+  {
+    "question": "FPT giai thich nguyen nhan tang truong quy 2 nam 2024 nhu the nao?",
+    "answerable": true,
+    "expected_terms": ["khi cong ngh", "nht bn"]
+  },
+  {
+    "question": "Các khoản vay ngắn hạn của FPT được thực hiện theo hình thức nào?",
+    "answerable": true,
+    "expected_terms": ["tin chp", "tin dng thu"]
+  },
+  {
+    "question": "Doanh thu thuần Quý II năm 2024 trong bảng giải trình là bao nhiêu?",
+    "answerable": true,
+    "expected_terms": ["15.245.226"]
+  }
+]
