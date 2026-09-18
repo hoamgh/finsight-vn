@@ -1,0 +1,15 @@
+# FinSight VN Phase 1 company universe.
+# FPT is the first end-to-end vertical slice. The remaining symbols are
+# candidates for the 10-company V1 universe and should be verified before
+# their historical backfill is enabled.
+
+version: 1
+companies:
+  - symbol: FPT
+    name: FPT Corporation
+    exchange: HOSE
+    enabled: true
+    vertical_slice: true
+
+# Add the remaining companies only after verifying symbol, exchange,
+# financial-report availability, and historical coverage.
